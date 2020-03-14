@@ -1,0 +1,32 @@
+.footerBar {
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  background: #4d6e9b;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.made {
+  color: white;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.date {
+  color: white;
+  width: 130%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 110px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footerBar {
+    font-size: 16px;
+  }
+}

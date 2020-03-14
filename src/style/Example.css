@@ -1,0 +1,57 @@
+.example {
+  display: flex;
+  height: 280px;
+  margin: 50px;
+  width: 370px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  height: 16%;
+  width: fit-content;
+  font-size: x-large;
+  margin-top: -35px;
+  text-align: center;
+}
+
+.info {
+  height: 30%;
+  font-size: large;
+}
+
+.image {
+  display: flex;
+  height: 200px;
+  width: 300px;
+  margin: 2% 0% 5% 0%;
+  border: 1px solid lightgrey;
+  justify-content: center;
+}
+
+.gitLink {
+  height: 25%;
+  width: 420px;
+  justify-content: center;
+  text-align: center;
+  font-size: initial;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: lightgrey;
+}
+
+@media only screen and (max-width: 600px) {
+  .info {
+    font-size: 16px;
+  }
+
+  .gitLink{
+    font-size: 16px;
+  }
+}

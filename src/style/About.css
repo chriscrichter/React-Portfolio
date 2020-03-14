@@ -1,0 +1,44 @@
+.about {
+  display: flex;
+  height: 80vh;
+  width: 100%;
+  background: #729dbf;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  height: 100%;
+  width: 35%;
+  margin-left: 2%;
+  color: white;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  height: 100%;
+  width: 48%;
+  margin-right: 10%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: lightgrey;
+}
+
+@media only screen and (max-width: 600px) {
+  .right {
+    font-size: 12px;
+  }
+}
