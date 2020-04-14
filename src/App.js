@@ -10,6 +10,7 @@ import recyclenation from "./images/recyclenation.png";
 import weatherdashboard from "./images/weatherdashboard.png";
 import codequiz from "./images/codequiz.png";
 import hungrymuch from "./images/hungrymuch.png";
+import ramenjoy from "./images/ramenjoy.png";
 import dailyplanner from "./images/dailyplanner.png";
 import employeedirectory from "./images/employeedirectory.png";
 import "./style/App.css";
@@ -25,27 +26,6 @@ class App extends Component {
         url: "https://chriscrichter.github.io/ProjectOne/"
       },
       {
-        title: "Weather Dashboard",
-        image: weatherdashboard,
-        text:
-          "Weather Dashboard homework",
-        url: "https://chriscrichter.github.io/Weather-Dashboard/"
-      },
-      {
-        title: "Code Quiz",
-        image: codequiz,
-        text:
-          "Code Quiz homework",
-        url: "https://chriscrichter.github.io/Code-Quiz/"
-      },
-      {
-        title: "Day Planner",
-        image: dailyplanner,
-        text:
-          "Day Planner homework",
-        url: "https://chriscrichter.github.io/Day-Planner/"
-      },
-      {
         title: "Recycle Nation",
         image: recyclenation,
         text:
@@ -53,12 +33,12 @@ class App extends Component {
         url: "https://intense-thicket-33780.herokuapp.com/"
       },
       {
-        title: "Employee Directory",
-        image: employeedirectory,
+        title: "Ramen Joy",
+        image: ramenjoy,
         text:
-          "Employee Directory homework",
-        url: "https://blooming-sands-63789.herokuapp.com/"
-      }
+          "Project Three: Ramen Joy",
+        url: "https://stark-shelf-28495.herokuapp.com/"
+      },
           ]
   };
   render() {
