@@ -1,6 +1,6 @@
 .projects {
   display: flex;
-  height: 100%;
+  height: 120%;
   width: 100%;
   justify-content: space-around;
   align-items: center;
@@ -8,6 +8,7 @@
   color: white;
   font-size: xx-large;
   flex-direction: column;
+  margin-bottom: 0;
 }
 
 .examples {
