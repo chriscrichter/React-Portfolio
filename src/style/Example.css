@@ -1,8 +1,8 @@
 .example {
   display: flex;
-  height: 280px;
-  margin: 50px;
-  width: 370px;
+  height: 330px;
+  margin: 10px;
+  width: 350px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -12,12 +12,13 @@
   height: 16%;
   width: fit-content;
   font-size: x-large;
-  margin-top: -5px;
+  margin-top: 30px;
   text-align: center;
 }
 
 .info {
   height: 30%;
+  width: 270px;
   font-size: large;
   margin-top: 15px;
   text-align: center;
@@ -38,6 +39,7 @@
   justify-content: center;
   text-align: center;
   font-size: initial;
+  margin-bottom: 15px;
 }
 
 a {
@@ -48,9 +50,13 @@ a:hover {
   color: lightgrey;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
+  .example {
+    margin-bottom: 95px;
+}
   .info {
     font-size: 16px;
+
   }
 
   .gitLink{
