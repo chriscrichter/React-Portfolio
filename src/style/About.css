@@ -23,6 +23,7 @@
   height: 100%;
   width: 48%;
   margin-right: 10%;
+  font-size: 18px;
   color: white;
   justify-content: center;
   align-items: center;
@@ -39,6 +40,6 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
   .right {
-    font-size: 12px;
+    font-size: 14px;
   }
 }

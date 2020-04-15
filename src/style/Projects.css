@@ -1,29 +1,31 @@
 .projects {
   display: flex;
- 
-  height: 120%;
-  color: white;
-  background: #729dbf;
-  font-size: xx-large;
-  justify-content: center;
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
   align-items: center;
+  background: #729dbf;
+  color: white;
+  font-size: xx-large;
   flex-direction: column;
-  position: relative;
-  overflow-x: hidden;
 }
 
 .examples {
   display: flex;
   height: fit-content;
-  width: 90%;
+  width: 100%;
   color: white;
   justify-content: center;
   font-size: large;
   flex-wrap: wrap;
+  margin-bottom: 200px;
 }
 
 @media only screen and (max-width: 600px) {
   .header{
     font-size: smaller;
+  }
+   .heading{
+    font-size: 50px;
   }
 }

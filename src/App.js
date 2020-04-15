@@ -5,14 +5,10 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import recyclenation from "./images/recyclenation.png";
-import weatherdashboard from "./images/weatherdashboard.png";
-import codequiz from "./images/codequiz.png";
 import hungrymuch from "./images/hungrymuch.png";
+import recyclenation from "./images/recyclenation.png";
 import ramenjoy from "./images/ramenjoy.png";
-import dailyplanner from "./images/dailyplanner.png";
-import employeedirectory from "./images/employeedirectory.png";
+import Footer from "./components/Footer";
 import "./style/App.css";
 
 class App extends Component {
