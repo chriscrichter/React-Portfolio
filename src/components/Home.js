@@ -9,7 +9,7 @@ const Home = () => {
       <div className="mypic">
       <img src={Pic} alt='Pic' width="250" height="260" />
       </div>
-      <h5 className="subheading">Columbia Engineering Coding Boot Camp</h5>
+      <h5 className="subheading">Columbia Engineering Coding Bootcamp</h5>
       <div className="skills">
         <ul>
           <li></li>
