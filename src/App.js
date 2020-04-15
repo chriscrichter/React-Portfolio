@@ -18,21 +18,21 @@ class App extends Component {
         title: "hungry much?",
         image: hungrymuch,
         text:
-          "Project One: hungry much?",
+          "Find recipes and nutritional information for the foods you are hungry for.",
         url: "https://chriscrichter.github.io/ProjectOne/"
       },
       {
         title: "Recycle Nation",
         image: recyclenation,
         text:
-          "Project Two: Recycle Nation",
+          "An app that tells you what to recycle and what people around the world are saying about environmental issues.",
         url: "https://intense-thicket-33780.herokuapp.com/"
       },
       {
         title: "Ramen Joy",
         image: ramenjoy,
         text:
-          "Project Three: Ramen Joy",
+          "A place for ramen lovers to find nearby ramen restaurants and other ramen lovers to eat it with.",
         url: "https://stark-shelf-28495.herokuapp.com/"
       },
           ]
