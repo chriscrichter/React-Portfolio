@@ -14,7 +14,7 @@ const Contact = () => {
         <h3><a href="mailto:chris_richter@outlook.com">chris_richter@outlook.com</a></h3>
 
 
-        <h3><a href="http://www.linkedin.com/in/chris-richter-32932a186" target="_blank">www.linkedin.com/in/chris-richter-32932a186</a></h3>
+        <h3><a href="http://linkedin.com/in/chris-richter-32932a186" target="_blank">linkedin.com/in/chris-richter-32932a186</a></h3>
 
 
         <h3><a href="https://github.com/chriscrichter" target="_blank">github.com/chriscrichter</a></h3>
