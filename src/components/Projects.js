@@ -16,6 +16,8 @@ const Projects = props => {
               image={example.image}
               text={example.text}
               url={example.url}
+              git={example.git}
+              tech={example.tech}
             />          
           );           
         })}

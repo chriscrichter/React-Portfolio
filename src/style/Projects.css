@@ -17,7 +17,7 @@
   width: 100%;
   color: white;
   justify-content: center;
-  font-size: large;
+  font-size: xx-large;
   flex-wrap: wrap;
   margin-bottom: 180px;
 }
@@ -37,7 +37,7 @@
   align-items: center;
   background: #729dbf;
   color: white;
-  font-size: xx-large;
+  font-size: large;
   flex-direction: column;
   margin-bottom: 0;
 }

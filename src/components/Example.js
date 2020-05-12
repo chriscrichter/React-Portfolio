@@ -16,6 +16,12 @@ const Example = props => {
       <div className="gitLink">
         <a href={props.url} target="_blank">{props.url}</a>
       </div>
+       <div className="gitLink">
+        <a href={props.git} target="_blank">{props.git}</a>
+      </div>
+      <div className="tech">
+        <p>{props.tech}</p>
+      </div>
     </div>
   );
 };
