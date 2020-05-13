@@ -1,7 +1,16 @@
+html {
+  height: 100%;
+  }
+
+.header {
+  font-size: 36px;
+  }
+
 .projects {
   display: flex;
   height: 80vh;
   width: 100%;
+  justify-content: center;
   align-items: center;
   background: #729dbf;
   color: white;
@@ -22,7 +31,7 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  .header{
+.header{
     font-size: 28px;
   }
 

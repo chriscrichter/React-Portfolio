@@ -11,8 +11,8 @@
 .title {
   height: 16%;
   width: fit-content;
-  font-size: x-large;
-  margin-top: 80px;
+  font-size: 22px;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -20,8 +20,8 @@
   height: 30%;
   width: 270px;
   font-size: large;
-  margin-top: 8px;
-  margin-bottom: 4px;
+
+  margin-bottom: 2px;
   text-align: center;
 }
 
