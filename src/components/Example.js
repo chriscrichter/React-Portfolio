@@ -14,11 +14,13 @@ const Example = props => {
         <img src={props.image} alt="" height="200px" width="300px" />
       </div>
       <div className="gitLink">
-        <a href={props.url} target="_blank">{props.url}</a>
+        <a href={props.url} target="_blank">Website</a> | <a href={props.git} target="_blank">GitHub</a>
       </div>
+       {/*
        <div className="gitLink">
         <a href={props.git} target="_blank">{props.git}</a>
       </div>
+      */}
       <div className="tech">
         <p>{props.tech}</p>
       </div>

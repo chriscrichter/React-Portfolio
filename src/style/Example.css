@@ -20,7 +20,8 @@
   height: 30%;
   width: 270px;
   font-size: large;
-  margin-top: 15px;
+  margin-top: 8px;
+  margin-bottom: 4px;
   text-align: center;
 }
 
@@ -28,7 +29,7 @@
   display: flex;
   height: 200px;
   width: 300px;
-  margin: 5% 0% 6% 0%;
+  margin: 5% 0% 5% 0%;
   border: 1px solid lightgrey;
   justify-content: center;
 }
@@ -38,8 +39,8 @@
   width: 420px;
   justify-content: center;
   text-align: center;
-  font-size: initial;
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 4px;
 }
 
 a {
@@ -58,16 +59,40 @@ a:hover {
   text-align: center;
 }
 
-@media only screen and (max-width: 1000px) {
-  .example {
-    margin-bottom: 95px;
+@media only screen and (max-width:768px) {
+.example {
+    height: 100%;
 }
-  .info {
-    font-size: 16px;
 
+.examples {
+  display: flex;
+  height: 180px;
+  margin: 10px;
+  width: 370px;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  height: 16%;
+  width: fit-content;
+  font-size: x-large;
+  margin-top: -20px;
+  text-align: center;
+}
+
+.info {
+    font-size: 18px;
+    margin-top: -20px;
   }
 
-  .gitLink{
-    font-size: 16px;
+.gitLink{
+    font-size: 18px;
   }
+.tech {
+  width: 370px;
+  font-size: large;
+  text-align: center;
+}
+
+
 }
